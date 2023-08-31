@@ -16,7 +16,7 @@
             <div class="row justify-content-around">
                 <div class="card col-md-6">
                     <div class="card-body">
-                        <span> <i class="fa-regular fa-file"></i> Pick any Template you want. </span>
+                        <span> <i class="fa-regular fa-file"></i> Pick a Template you want. </span>
                     </div>
                 </div>
                 <div class="card col-md-6">
@@ -27,15 +27,15 @@
             </div>
         </section>
         {{-- card section  start --}}
-        <section>
+        <hr>
+        <section id="#template">
             <h1 class="text-center mt-5"><u>Pick a Template</u></h1>
-            <hr>
             <div class="cardSection mt-4 d-flex justify-content-center align items-center">
                 <div class="card">
                     <div class="card-body">
                         <img src="" alt="">
                         <div class="middle">
-                            <a href="" class="btn btn-dark">Start</a>
+                            <a href="" class="btn btn-dark">Start <i class="fa-solid fa-square-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -43,15 +43,7 @@
                     <div class="card-body">
                         <img src="" alt="">
                         <div class="middle">
-                            <a href="" class="btn btn-dark">Start</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <img src="" alt="">
-                        <div class="middle">
-                            <a href="" class="btn btn-dark">Start</a>
+                            <a href="" class="btn btn-dark">Start <i class="fa-solid fa-square-plus"></i></a>
                         </div>
                     </div>
                 </div>
