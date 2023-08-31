@@ -8,7 +8,7 @@ use PDF;
 class PdfController extends Controller
 {
     public function pdf() {
-        $pdf = PDF::loadView('pages.pdf2');
+        $pdf = PDF::loadView('pages.pdf1');
     
         return $pdf->download('codesolutionstuff.pdf');
         // return view('pages.pdf1');
