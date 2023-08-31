@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p,h1,table,tr,td,ul,li,h4{
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    width: 50%;
+    padding-right: 60px;
+}
+.sidebar{
+    width: 30%;
+}
+.name{
+    font-size: 40px;
+}
+.user-bio{
+    color: #888;
+    font-size: 14px;
+}
+.address {
+    font-size:13px;
+    color: #888;
+}
+.add-2{
+    font-weight: 800;
+    color: #000;
+}
+.title{
+    text-transform: uppercase;
+    color: #3A89CE;
+    font-weight: 700;
+    font-size: 13px;
+}
+table{
+    width: 100%;
+}
+.lists ul li{
+    list-style: none;
+}
+.lists{
+    margin-top: 10px;
+}
+.items{
+    margin-top: 10px;
+}
+.items li{
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 3px;
+}
+.month{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #888;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.details{
+    margin-top: 10px;
+    font-size: 15px;
+}
+*{
+    page-break-inside: avoid !important;
+}
