@@ -85,7 +85,7 @@
             @yield('content')
         </main>
         <div class="containe">
-            <footer class="d-flex flex-wrap justify-content-between bg-white align-items-center py-3 my-4 border-top">
+            <footer class="d-flex flex-wrap justify-content-between bg-white align-items-center py-3  border-top">
                 <div class="col-md-4 d-flex align-items-center">
 
                     <span class="mb-3 ms-5 mb-md-0 text-muted">© 2023 Team Sohoj</span>
