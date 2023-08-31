@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container-fluid">
+    <div class="container-fluid main">
         <div class="heroSection">
             <div class="col-md-6 heroText">
                 <div class="content">
@@ -13,8 +13,8 @@
         </div>
         <section class="goal ">
             <h2 class="text-center m-5"><u>How to generate a Resume?</u></h2>
-            <div class="row">
-                <div class="card col-md-5">
+            <div class="row justify-content-around">
+                <div class="card col-md-6">
                     <div class="card-body">
                         <span> <i class="fa-regular fa-file"></i> Pick any Template you want. </span>
                     </div>

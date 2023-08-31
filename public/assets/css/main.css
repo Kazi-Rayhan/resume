@@ -41,7 +41,7 @@ a {
 .cardSection {
     height: 80vh;
 }
-.card {
+.main .card {
     width: 400px;
     padding: 20px;
     margin: 10px;
@@ -49,7 +49,7 @@ a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease-in;
 }
-.card:hover {
+.main .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
 }
@@ -80,3 +80,4 @@ a {
 .cardSection:hover .middle {
     opacity: 1;
 }
+
