@@ -20,6 +20,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .heroText {
     background-color: rgba(0, 0, 0, 0.5);
     height: 90vh;
@@ -41,11 +42,15 @@ a {
 .cardSection {
     height: 80vh;
 }
+.cardSection img {
+    width: 100%;
+    object-fit: cover;
+    height: 60%;
+}
 .main .card {
     width: 400px;
     padding: 20px;
     margin: 10px;
-    height: auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease-in;
 }
@@ -80,4 +85,3 @@ a {
 .cardSection:hover .middle {
     opacity: 1;
 }
-

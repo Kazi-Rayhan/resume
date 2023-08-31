@@ -11,7 +11,32 @@
                 </div>
             </div>
         </div>
-        <section class="goal ">
+
+        <hr>
+        <section id="#template" class="mb-5">
+            <h1 class="text-center mt-5"><u>Pick a Template</u></h1>
+            <div class="cardSection mt-4 d-flex justify-content-center align items-center">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('assets/pdf1png.png') }}" alt="" class="img-fluid">
+                        <div class="middle">
+                            <a href="" class="btn btn-dark">Start <i class="fa-solid fa-square-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{ asset('assets/pdf2.png') }}" class="img-fluid" alt="">
+                        <div class="middle">
+                            <a href="" class="btn btn-dark">Start <i class="fa-solid fa-square-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        {{-- <section class="goal mt-5">
             <h2 class="text-center m-5"><u>How to generate a Resume?</u></h2>
             <div class="row justify-content-around">
                 <div class="card col-md-6">
@@ -25,31 +50,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        {{-- card section  start --}}
-        <hr>
-        <section id="#template">
-            <h1 class="text-center mt-5"><u>Pick a Template</u></h1>
-            <div class="cardSection mt-4 d-flex justify-content-center align items-center">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="" alt="">
-                        <div class="middle">
-                            <a href="" class="btn btn-dark">Start <i class="fa-solid fa-square-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <img src="" alt="">
-                        <div class="middle">
-                            <a href="" class="btn btn-dark">Start <i class="fa-solid fa-square-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
+        </section> --}}
+        {{-- card section  start
         {{-- card section end  --}}
         {{-- our goal start --}}
 
